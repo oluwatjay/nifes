@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Educenter</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <style>
+   @keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+
+   .gallery-images-section {
+ display: grid;
+ grid-template-columns: repeat(4, minmax(200px, 1fr));
+ grid-gap: 0;
+ width: 100%;
+ box-sizing: border-box;
+ box-sizing: content-box;
+ overflow: hidden;
+}
+
+.gallery-section2 .gallery-images-section {
+ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.gallery-img-wrap {
+ height: 200px;
+ width: 341px;
+ box-sizing: content-box;
+ overflow: hidden;
+   margin: 10px;
+}
+
+.gallery-section2 .gallery-img-wrap {
+ width: 337px;
+   margin: 10px;
+}
+
+.gallery-img-wrap a img {
+   -webkit-filter: brightness(100%);
+   width: 341px;
+   margin: 10px;
+}
+
+.gallery-img-wrap a img:hover {
+   -webkit-filter: brightness(40%);
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   -ms-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 1199px) {
+
+ /*===========Gallery=========*/
+ .gallery-images-section {
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+ }
+}
+
+@media (max-width:450px){
+  .slider{
+    margin-top: 50px;
+  }
+}
+
+ 
+  </style>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="header">
+  <!-- top header -->
+
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item @@courses">
+              <a class="nav-link" href="leadership.html">Leadership</a>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+            <li class="nav-item @@blog">
+              <a class="nav-link" href="blog.html">Donate</a>
+            </li>
+       
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+
+<!-- Modal -->
+
+
+<!-- hero slider -->
+<section class="hero-section overlay bg-cover">
+ 
+  <div id="slider">
+   
+   
+    <div class="txt">
+      <h2>NIFES Associate Community Fellowship <br>(NACF) North America</h2>
+    </div>
+  
+  <figure>
+    
+  <img src="images/carousel-1.jpg" alt>
+  <img src="images/carousel-2.jpg" alt>
+  
+  </figure>
+  </div>
+</section>
+<!-- /hero slider -->
+
+<!-- banner-feature -->
+
+<!-- /banner-feature -->
+
+
+<!-- /about us -->
+
+<!-- courses -->
+
+<!-- /courses -->
+
+<!-- cta -->
+<div class="parent">
+
+
+<section class="section bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>VISION</h2>
+        <p class="section-title text-white">To serve as a national body to ALL NIFES graduates and local Alumni groups residing in North America (U.S and Canada), for a wider fellowship, for professional networking and for leveraging our resources to give back to NIFES Nigeria. 
+        </p>
+        <h2 class="section-title text-white">Inspiring one Another, Stronger Together, Serving the Lord.</h2>
+  
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /cta -->
+
+<!-- success story -->
+<section class="section bg-cover" data-background="images/backgrounds/success-story.jpg">
+  <div class="container">
+    <div class="row">
+     
+      <div class="col-lg-12 col-sm-8">
+        <div class="bg-white p-5">
+          <h2 class="section-title">Coordinator’s Message</h2>
+        <p> I welcome you to this medium of information and connection with the NACF NA activities. The Nifes Associate Community Fellowship, North America, has come a long way; from its inauguration in 2012, to its first national conference in Houston Texas in 2014. Then New Jersey in 2016, Dallas Texas in 2018 and New York in 2022.
+          The NACF fellowship meetings here in North America and the conferences evoke the aura of conferences back in the homeland when we traverse the length and breadth of our native country in search of an encounter with the God of heaven in our campus days. And because our motives were pure, desires were sincere and the hunger for God was genuine, many had encounters that set the stage for a lifelong pursuit of God as it is today.
+          
+          <p>How we rejoiced in those days when we met with fellow brethren from different campuses, from North to South, from East to West, and had the privilege of knowing what God was doing with our brethren in other parts of the country in spite of real challenges in their peculiar environment.
+          </p>
+          The effects of some of these indelible encounters and imparts from these fellowship opportunities provided by NIFES, is one of the reason why NACF North America exists, to provide a continuity of these fellowship experience, even though our campus days came to an end as should with anything that has a beginning on earth that is time bound.
+        </p>
+         <p> The NIFES Associate Community fellowship serves as the national body for all NIFES graduates residing in the U.S and Canada (North America)
+          
+          Every graduate of any higher institution of any Nigerian school, who identified with NIFES in his or her campus fellowship, is an automatic member of the NACF if he/she resides in the U.S. Likewise all organized campus Alumni groups in the U.S and Canada that already exist in North America are also part of the national body of NACF.
+        </p>
+          <p>The NACF provides a platform to reconnect again with one another, to be our own brother’s keeper and to support the course of NIFES Nigeria as we serve the Lord and wait for His appearing.
+          If you are a NIFES Alumni from any institution of higher learning from Nigeria and you reside in America or Canada, we invite you identify with NACF NA, and lets fellowship and network, leveraging our spiritual, professional and skillset capacities to impart our generation for God’s kingdom purpose here on earth.
+        
+        </p> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /success story -->
+
+<!-- events -->
+<section class="gallery-images-section" itemprop="image" itemscope itemtype=" http://schema.org/ImageGallery" style="width: 98%;">
+  <div class="gallery-img-wrap">
+      <a href="images/NACF Dallas 1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+          <img src="images/NACF Dallas 1.jpg">
+      </a>
+  </div>
+  <div class="gallery-img-wrap">
+      <a href="images/NACF Dallas 2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+          <img src="images/NACF Dallas 2.jpg">
+      </a>
+  </div>
+  <div class="gallery-img-wrap">
+      <a href="images/NACF Dallas 3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+          <img src="images/NACF Dallas 3.jpg">
+      </a>
+  </div>
+  <div class="gallery-img-wrap">
+      <a href="images/NACF Dallas 4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+          <img src="images/NACF Dallas 4.jpg">
+      </a>
+  </div>
+  <div class="gallery-img-wrap">
+      <a href="images/NACF Dallas 5.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+          <img src="images/NACF Dallas 5.jpg">
+          </a>
+  </div>
+  <div class="gallery-img-wrap">
+      <a href="images/NACF New Jersey 3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+          <img src="images/NACF New Jersey 3.jpg">
+      </a>
+  </div>
+  <div class="gallery-img-wrap">
+      <a href="images/NACF New Jersey 4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+          <img src="images/NACF New Jersey 4.jpg">
+      </a>
+  </div>
+  <div class="gallery-img-wrap">
+      <a href="images/NACF New Jersey 5.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+          <img src="images/NACF New Jersey 5.jpg">
+      </a>
+  </div>
+  <div class="gallery-img-wrap">
+      <a href="images/NACF New Jersey 6.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+          <img src="images/NACF New Jersey 6.jpg">
+      </a>
+  </div>
+  <div class="gallery-img-wrap">
+      <a href="images/NACF New Jersey 7.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+          <img src="images/NACF New Jersey 7.jpg">
+      </a>
+  </div>
+  <div class="gallery-img-wrap">
+
+</section>
+<!-- /events -->
+</div>
+
+<!-- teachers -->
+
+<!-- /blog -->
+
+<!-- footer -->
+<footer>
+  <!-- newsletter -->
+
+  <!-- footer content -->
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <!-- logo -->
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
+         
+        </div>
+        <!-- company -->
+        <div class="col-lg-4 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">COMPANY</h4>
+          <ul class="list-unstyled">
+           
+    <li  style="color: rgb(115, 113, 113);"><b>Email: </b> nacfusa2@gmail.com</li>
+    <li  style="color: rgb(115, 113, 113);"><b>Phone: </b>4692374689</li>
+    </ul>
+          </ul>
+        </div>
+        <!-- links -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">LINKS</h4>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="donate.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- support -->
+    
+      </div>
+    </div>
+  </div>
+  <!-- copyright -->
+
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<script src="js/lightbox.js"></script>
+
+</body>
+</html>
